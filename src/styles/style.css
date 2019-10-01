@@ -1,0 +1,77 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.pagina {
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.conteudo {
+    float: left;
+    /* Apenas para nosso exemplo */
+    background: url("../img/anuncio-publicitario-1200x675.jpg");
+    width: 80%;
+}
+.lateral {
+    float: left;
+    width: 20%;
+    /* Apenas para nosso exemplo */
+    background: purple;
+}
+.lateral2 {
+    float: left;
+    width: 20%;
+    /* Apenas para nosso exemplo */
+    background: cornflowerblue;
+}
+/* Apenas para nosso exemplo */
+.conteudo {
+    height: 550px;
+}
+.lateral{
+    height: 200px;
+}
+.lateral2{
+    height: 300px;
+}
+
+.containerHora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.containerConteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+.containerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+
