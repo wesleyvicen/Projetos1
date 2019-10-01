@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 *, *:after, *:before {
     margin: 0;
     padding: 0;
@@ -14,40 +20,24 @@
     line-height: 0;
     overflow: hidden;
 }
+
 .pagina {
     max-width: 100%;
     margin: 0 auto;
-
 }
+
+/*Incio Conteudo*/
 .conteudo {
     float: left;
     /* Apenas para nosso exemplo */
     /*background: url("../img/anuncio-publicitario-1200x675.jpg");*/
     background: yellow;
     width: 80%;
+    height: 7em;
 }
-.lateral {
-    float: left;
-    width: 20%;
-    /* Apenas para nosso exemplo */
-    background: purple;
-}
-.lateral2 {
-    float: left;
-    width: 20%;
-    /* Apenas para nosso exemplo */
-    background: cornflowerblue;
-}
-/* Apenas para nosso exemplo */
-.conteudo {
-    height: 6em;
-}
-.lateral{
-    height: 5em;
-}
-.lateral2{
-    height: 6em;
-}
+/*Fim Conteudo*/
+
+/*Inicio Data*/
 
 .containerHora{
     display: flex;
@@ -56,7 +46,14 @@
     font-size: 3em;
     color: white;
     text-align: center;
+
+    float: left;
+    width: 20%;
+    height: 5em;
+    /* Apenas para nosso exemplo */
+    background: cornflowerblue;
 }
+/*Fim Data*/
 
 .containerConteudo{
     display: flex;
@@ -66,6 +63,8 @@
     color: white;
     text-align: center;
 }
+/*Inicio LogoMarca*/
+
 .containerLogo{
     display: flex;
     align-items: center;
@@ -73,21 +72,43 @@
     font-size: 2em;
     color: white;
     text-align: center;
+
+    float: left;
+    width: 20%;
+    height: 5em;
+    /* Apenas para nosso exemplo */
+    background: purple;
 }
+/*Fim Logo Marca*/
+
+/*Inicio Noticia*/
 
 .containerNews{
     display: flex;
     color: white;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
-    height: 11em;
-}
+    height: 6em;
 
-.noticia {
     float: left;
     /* Apenas para nosso exemplo */
     background: brown;
 }
 
+
+.containerNewsImagem{
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 16em;
+    float: right;
+    /* Apenas para nosso exemplo */
+    background: coral;
+
+}
+/*Fim Noticia*/
 
 
