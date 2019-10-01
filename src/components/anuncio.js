@@ -6,6 +6,7 @@ class Anuncio extends React.PureComponent{
     render() {
         return(
             <div className={"conteudo containerConteudo"}>
+                Anúncio
             </div>
         )
     }

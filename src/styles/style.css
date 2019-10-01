@@ -22,7 +22,8 @@
 .conteudo {
     float: left;
     /* Apenas para nosso exemplo */
-    background: url("../img/anuncio-publicitario-1200x675.jpg");
+    /*background: url("../img/anuncio-publicitario-1200x675.jpg");*/
+    background: yellow;
     width: 80%;
 }
 .lateral {
@@ -39,13 +40,13 @@
 }
 /* Apenas para nosso exemplo */
 .conteudo {
-    height: 550px;
+    height: 6em;
 }
 .lateral{
-    height: 200px;
+    height: 5em;
 }
 .lateral2{
-    height: 300px;
+    height: 6em;
 }
 
 .containerHora{
@@ -73,5 +74,20 @@
     color: white;
     text-align: center;
 }
+
+.containerNews{
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 11em;
+}
+
+.noticia {
+    float: left;
+    /* Apenas para nosso exemplo */
+    background: brown;
+}
+
 
 
