@@ -5,7 +5,8 @@ class Anuncio extends React.PureComponent{
 
     render() {
         return(
-            <div className={"conteudo containerConteudo"}>
+            <div className={"lateral containerLogo"}>
+                LED Marketing
             </div>
         )
     }
