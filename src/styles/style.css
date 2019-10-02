@@ -1,114 +1,74 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-
-*, *:after, *:before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: green;
 }
-.clearfix:after {
-    content: '.';
-    display: block;
-    clear: both;
-    width: 100%;
-    height: 0;
-    line-height: 0;
-    overflow: hidden;
+.left {
+  display: flex;
+  flex: 8;
+  background-color: brown;
+  flex-direction: column;
 }
-
-.pagina {
-    max-width: 100%;
-    margin: 0 auto;
+.right {
+  display: flex;
+  flex: 2;
+  background-color: aqua;
+  flex-direction: column;
 }
+.ad {
+  display: flex;
+  flex: 9;
+  background-color: yellow;
 
-/*Incio Conteudo*/
-.conteudo {
-    float: left;
-    /* Apenas para nosso exemplo */
-    /*background: url("../img/anuncio-publicitario-1200x675.jpg");*/
-    background: yellow;
-    width: 80%;
-    height: 7em;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  color: white;
+  text-align: center;
 }
-/*Fim Conteudo*/
+.news {
+  display: flex;
+  flex: 1;
+  background-color: brown;
+  padding: 1rem;
+  height: 80%;
 
-/*Inicio Data*/
-
-.containerHora{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3em;
-    color: white;
-    text-align: center;
-
-    float: left;
-    width: 20%;
-    height: 5em;
-    /* Apenas para nosso exemplo */
-    background: cornflowerblue;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-/*Fim Data*/
+/* roxo (purple), azul (cornflowerblue), laranja (coral) */
+.logo {
+  display: flex;
+  flex: 1;
+  background-color: purple;
 
-.containerConteudo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5em;
-    color: white;
-    text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+  text-align: center;
 }
-/*Inicio LogoMarca*/
+.date {
+  display: flex;
+  flex: 2;
+  background-color: cornflowerblue;
 
-.containerLogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-
-    float: left;
-    width: 20%;
-    height: 5em;
-    /* Apenas para nosso exemplo */
-    background: purple;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+  text-align: center;
 }
-/*Fim Logo Marca*/
-
-/*Inicio Noticia*/
-
-.containerNews{
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    height: 6em;
-
-    float: left;
-    /* Apenas para nosso exemplo */
-    background: brown;
+.image {
+  display: flex;
+  flex: 2;
+  background-color: coral;
 }
-
-
-.containerNewsImagem{
-    display: flex;
-    color: white;
-    text-align: center;
-    width: 20%;
-    height: 16em;
-    float: right;
-    /* Apenas para nosso exemplo */
-    background: coral;
-
-}
-/*Fim Noticia*/
-
-

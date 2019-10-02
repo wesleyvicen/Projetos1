@@ -7,7 +7,7 @@ class Anuncio extends React.PureComponent{
 
     render() {
         return(
-            <div className={"containerHora"}>
+            <div className={"date"}>
                 {moment().format('Do MMMM YYYY')}
                 <br/>
                 {moment().format('h:mm:ss a')}

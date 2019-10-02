@@ -5,14 +5,8 @@ class Noticia extends React.PureComponent{
 
   render() {
     return(
-      <div>
-        <div className={"containerNewsImagem"}>
-            Imagem da noticia
-        </div>
-        <div className={"noticia containerNews"}>
+      <div className={"news"}>
           <h1>Cinco suspeitos de roubo são mortos durante tiroteio com PM em Gravatá</h1>
-        </div>
-
       </div>
     )
   }
