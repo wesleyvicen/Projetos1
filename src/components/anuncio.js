@@ -6,7 +6,6 @@ class Anuncio extends React.PureComponent{
     render() {
         return(
             <div className={"ad"}>
-                Anúncio
             </div>
         )
     }

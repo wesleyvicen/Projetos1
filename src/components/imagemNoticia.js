@@ -6,7 +6,7 @@ class Imagem extends React.PureComponent{
   render() {
     return(
       <div className={"image"}>
-        Imagem Noticia
+        Imagem da internet
       </div>
     )
   }
