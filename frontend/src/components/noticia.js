@@ -6,7 +6,7 @@ class Noticia extends React.PureComponent{
   render() {
     return(
       <div className={"news"}>
-          <h1>Cinco suspeitos de roubo são mortos durante tiroteio com PM em Gravatá</h1>
+          <h1>Mulher é presa em flagrante com cédulas falsas compradas na internet, diz PF</h1>
       </div>
     )
   }
