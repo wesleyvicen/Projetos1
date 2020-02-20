@@ -5,7 +5,7 @@ const Model = use("Model");
 
 class Anuncio extends Model {
   static fillable() {
-    return ["urlImage", "localizacao"];
+    return ["nameResp", "urlImage", "latitude", "longitude", "nincho"];
   }
 }
 
