@@ -9,7 +9,11 @@ class NoticiaController {
     return noticia;
   }
 
-  async store({ request, response }) {}
+  async store({ request, response }) {
+    const data = request.only(Noticia.fillable());
+    const noticia = await Noticia.create(data);
+    return noticia;
+  }
 
   async show({ params, request, response, view }) {
     const noticia = await Noticia.find(params.id);
