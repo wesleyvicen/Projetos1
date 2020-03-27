@@ -3,18 +3,14 @@
 const Route = use("Route");
 
 Route.group(() => {
-  Route.post("add", "AnuncioController.store");
+  Route.post("add", "AnuncioController.store").middleware("auth");
   Route.get("lists", "AnuncioController.index");
-})
-  .prefix("ad")
-  .middleware("auth");
+}).prefix("ad");
 
 Route.group(() => {
-  Route.post("add", "NoticiaController.store");
+  Route.post("add", "NoticiaController.store").middleware("auth");
   Route.get("lists", "NoticiaController.index");
-})
-  .prefix("news")
-  .middleware("auth");
+}).prefix("news");
 
 Route.post("/users", "UserController.create");
 
