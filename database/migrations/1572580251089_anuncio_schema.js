@@ -9,8 +9,8 @@ class AnuncioSchema extends Schema {
       table.increments();
       table.string("nameResp");
       table.string("urlImage");
-      table.string("latitude");
-      table.string("longitude");
+      table.decimal("latitude", 9, 6).notNullable();
+      table.decimal("longitude", 9, 6).notNullable();
       table.string("nincho");
       table.timestamps();
     });
