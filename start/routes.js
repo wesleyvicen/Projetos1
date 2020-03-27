@@ -3,7 +3,7 @@
 const Route = use("Route");
 
 Route.group(() => {
-  Route.post("add", "AnuncioController.store").middleware("auth");
+  Route.post("add", "AnuncioController.store");
   Route.get("lists", "AnuncioController.index");
 }).prefix("ad");
 
