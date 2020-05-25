@@ -8,7 +8,7 @@ Route.group(() => {
 }).prefix("ad");
 
 Route.group(() => {
-  Route.post("add", "NoticiaController.store").middleware("auth");
+  Route.post("add", "NoticiaController.store");
   Route.get("lists", "NoticiaController.index");
 }).prefix("news");
 
